@@ -1,6 +1,9 @@
 import React from "react";
+import NavBar from "./NavBar";
+import Home from "./Home";
+import About from "./About";
 
-function App() {
+export default function App() {
   return (
     <div>
       <NavBar />
@@ -9,5 +12,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
